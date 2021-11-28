@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { NavLink } from 'react-router-dom'
 import logo from '../images/logo.png'
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
 
 function Navigation() {
@@ -24,10 +25,10 @@ function Navigation() {
                             <li>
                                 <NavLink to="/" activeClassName="active-class" exact>Account</NavLink>
                             </li>
+                            <li><ShoppingCartIcon /></li>
                         </ul>
                     </nav>
                 </div>
-
             </div>
         </NavigationStyled>
     )
